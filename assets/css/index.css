@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.background {
+  position: relative;
+}
+
+.back-img {
+  width: 100%;
+}
+
+.background-logo {
+  position: absolute;
+  left: 0;
+  top: 12%;
+  width: 100%;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+div.card1 {
+  margin-top: 73px;
+}
+
+.spacer {
+  color: white;
+  background-color: black;
+  padding: 30px;
+  font-size: 30px;
+  font-family: 'Niconne', cursive;
+  position: relative;
+  bottom: 5px;
+}
+
+#content-header {
+  font-family: 'Niconne', cursive;
+  font-size: 50px;
+  position: relative;
+  top: 2.2px;
+
+}
+
+.card-content {
+  font-size: 20px;
+  background-color: white;
+  color: black;
+}
+
+.btn-port {
+  position: relative;
+  left: 150px;
+}
